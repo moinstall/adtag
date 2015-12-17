@@ -1,4 +1,4 @@
-##Introduction
+###Introduction
 
 The Ad Tag is a lightweight, easy and quick javascript based solution that makes it easy to integrate advertiser ads into your website.
 The main usage of the ad tag is mobile websites, but it can also be used for in-app integrations.
@@ -6,13 +6,6 @@ The main usage of the ad tag is mobile websites, but it can also be used for in-
 ##Integration Instructions
 
 To complete integration, follow the steps: 
-1. aaa
-2. bbb
-3. ccc
-
-
-
-
 
 1. Make sure you have registered CDN and Ad Serving domains with support of http and https. 
 2. Put file ad.js to your CDN. File can be downloaded from here: https://github.com/moinstall/adtag/blob/master/ad_tag.js
@@ -21,7 +14,8 @@ To complete integration, follow the steps:
 5. Make sure you have linked creative in the system.
 6. Check if banner is displaying. 
 
-##Ad Tag Code for InApp and Web
+###Ad Tag Code for InApp and Web
+
 ```
 <!-- BEGIN TAG - DO NOT MODIFY -->
 <script type="text/javascript">
@@ -40,6 +34,8 @@ To complete integration, follow the steps:
 
 The script will pick up parameters, or whatever we need, and call our internal handler
 
+```
 http://ADSERVER/ad?p=<placement_id>&format=<format:(js|html)>
+```
 
 This handler will provide a valid iframe creative.
