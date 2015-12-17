@@ -6,6 +6,14 @@ The main usage of the ad tag is mobile websites, but it can also be used for in-
 ##Integration Instructions
 
 To complete integration, follow the steps: 
+1. aaa
+2. bbb
+3. ccc
+
+
+
+
+
 1. Make sure you have registered CDN and Ad Serving domains with support of http and https. 
 2. Put file ad.js to your CDN. File can be downloaded from here: https://github.com/moinstall/adtag/blob/master/ad_tag.js
 3. Rename PATH_TO_ADSERVER in ad.js to your AdServing Domain. 
